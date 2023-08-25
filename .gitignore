@@ -6,3 +6,10 @@
 *.cache
 
 *.txt
+
+*.exe
+
+*.rar
+
+/BisDll-Legacy/bin
+/BisDll-Legacy/obj

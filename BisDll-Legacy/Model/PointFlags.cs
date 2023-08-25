@@ -1,0 +1,54 @@
+﻿using System;
+
+namespace BisDll.Model
+{
+	// Token: 0x0200000F RID: 15
+	[Flags]
+	public enum PointFlags : uint
+	{
+		// Token: 0x0400003C RID: 60
+		NONE = 0U,
+		// Token: 0x0400003D RID: 61
+		ONLAND = 1U,
+		// Token: 0x0400003E RID: 62
+		UNDERLAND = 2U,
+		// Token: 0x0400003F RID: 63
+		ABOVELAND = 4U,
+		// Token: 0x04000040 RID: 64
+		KEEPLAND = 8U,
+		// Token: 0x04000041 RID: 65
+		LAND_MASK = 15U,
+		// Token: 0x04000042 RID: 66
+		DECAL = 256U,
+		// Token: 0x04000043 RID: 67
+		VDECAL = 512U,
+		// Token: 0x04000044 RID: 68
+		DECAL_MASK = 768U,
+		// Token: 0x04000045 RID: 69
+		NOLIGHT = 16U,
+		// Token: 0x04000046 RID: 70
+		AMBIENT = 32U,
+		// Token: 0x04000047 RID: 71
+		FULLLIGHT = 64U,
+		// Token: 0x04000048 RID: 72
+		HALFLIGHT = 128U,
+		// Token: 0x04000049 RID: 73
+		LIGHT_MASK = 240U,
+		// Token: 0x0400004A RID: 74
+		NOFOG = 4096U,
+		// Token: 0x0400004B RID: 75
+		SKYFOG = 8192U,
+		// Token: 0x0400004C RID: 76
+		FOG_MASK = 12288U,
+		// Token: 0x0400004D RID: 77
+		USER_MASK = 16711680U,
+		// Token: 0x0400004E RID: 78
+		USER_STEP = 65536U,
+		// Token: 0x0400004F RID: 79
+		SPECIAL_MASK = 251658240U,
+		// Token: 0x04000050 RID: 80
+		SPECIAL_HIDDEN = 16777216U,
+		// Token: 0x04000051 RID: 81
+		ALL_FLAGS = 268383231U
+	}
+}
